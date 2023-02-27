@@ -12,6 +12,11 @@
   font-size: 0 !important;   
 }
 
+blockquote {
+  background-color: lightcoral;
+  color: #0e1a22;
+}
+
 h1,
 h2,
 h3,
