@@ -8,6 +8,9 @@
   --form-element-spacing-vertical: 1rem;
   --form-element-spacing-horizontal: 1.25rem;
 }
+.comment {
+  font-size: 0 !important;   
+}
 
 h1,
 h2,
