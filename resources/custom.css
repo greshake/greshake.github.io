@@ -7,10 +7,35 @@
   --border-radius: 0;
   --form-element-spacing-vertical: 1rem;
   --form-element-spacing-horizontal: 1.25rem;
+  --spacing-things: 4rem;
+  --font-weight: 400;
+  --border-radius: 0;
 }
 .comment {
   font-size: 0 !important;   
 }
+@media (min-width: 992px) {
+  /* only select the first article */
+  article:first-of-type {
+    grid-column-gap: var(--spacing-things);
+    grid-template-columns: auto 30%;
+  }
+}
+
+form.grid {
+  grid-row-gap: 0;
+}
+
+/* Aside nav */
+aside img {
+  margin-bottom: 0.25rem;
+}
+
+aside p {
+  margin-bottom: var(--spacing-things);
+  line-height: 1.25;
+}
+
 
 blockquote {
   background-color: lightcoral;
