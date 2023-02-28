@@ -22,6 +22,15 @@
   }
 }
 
+video {
+  max-width: 100%;
+  object-fit: fill;
+  width: 100%    !important;
+  height: auto   !important;
+  outline: none;
+  overflow: hidden;
+}
+
 form.grid {
   grid-row-gap: 0;
 }
